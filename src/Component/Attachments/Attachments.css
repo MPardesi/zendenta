@@ -1,0 +1,43 @@
+.container{
+  background-color: white;
+  height: 40%;
+  width: 40%;
+}
+
+.containerTitle{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+
+  
+.toprightAtt{
+  position: relative;
+}
+  
+.attachItemContainer{
+  display: flex;
+  column-count: 2;
+padding-right: 40px;
+  justify-content: space-between;
+ 
+  padding: 10px;
+  box-shadow: 1px 2px grey;
+  border-radius: 5px;
+
+}
+.attachItem{
+
+  box-shadow: 2px;
+}
+  
+.notesItem ul {
+  list-style-type: none;
+  color:#999999;
+  margin-left: 20px;
+}
+
+.notesItem ul li:before {
+ 
+}

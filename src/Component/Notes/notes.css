@@ -1,0 +1,81 @@
+.container {
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30%;
+  height: 75%;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+
+.notetsDoctInfo{
+  display: inline;
+
+}
+
+.notes{
+  padding-top: 5px;
+  justify-content: space-between;
+  display: flex;
+
+}
+
+.notes p{
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.notes a{
+  font-weight:bold;
+  color: blue;
+}
+
+.topright {
+  position: absolute;
+  top: 59px;
+  right: 25px;
+  float: right;
+}
+
+.notesItem{
+  background-color: aliceblue;
+  height: 60%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.notesItem ul {
+  list-style-type: none;
+  color:black;
+  margin-left: 20px;
+}
+
+.btnSubmit{
+  float: right;
+  color:white;
+  background: mediumblue;
+  height:39px;
+  width:90px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: small;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.notesItem ul li {
+  padding-top: 10px;
+}
+
+.notesItem ul li:before {
+  position: absolute;
+  margin-left: -20px;
+}
+
+.notesdown1{
+  margin: 2%;
+}

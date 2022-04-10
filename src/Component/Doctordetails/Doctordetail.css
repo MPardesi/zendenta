@@ -1,0 +1,68 @@
+.collapsible .content {
+  padding: 6px;
+  background-color: #eeeeee;
+  width: 225px;
+}
+
+.collapsible .header {
+  background-color: #dddddd;
+  padding: 6px;
+  cursor: pointer;
+  width: 220px;
+}
+
+.collapsible {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.header{
+  display: flex;
+  margin-left: 5px;
+}
+
+.docName{
+  margin-left: 10px;
+  padding-top: 2px;
+}
+
+.docavatar{
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.docavatar img{
+  width: 50px;
+  height: auto;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.collapseIcon:after {
+  font-family: 'Glyphicons Halflings';
+  float: right; 
+}    
+
+.collapseIcon {
+  cursor: pointer;
+  padding-left: 22px;
+  padding-top: 11px;
+  font-size: 15px;
+}
+
+.collapsible i{
+  padding-left: 8px;
+}
